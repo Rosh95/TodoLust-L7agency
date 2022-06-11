@@ -30,33 +30,3 @@
 .todo-list-item button .no-float-button {
   float: none;
 }
-.icon-pause:after {
-  content: '⏸';
-}
-
-.icon-play:after {
-  content: '▶';
-}
-.icon-pause,
-.icon-play {
-  font-size: 18px;
-  width: 18px;
-  height: 18px;
-  border: none;
-  background-color: transparent;
-}
-button .icon-pause {
-  margin-right: 20px;
-}
-
-.icon:hover {
-  color: #af5b5e;
-}
-.time-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.timer-time {
-  margin-left: 20px;
-}
